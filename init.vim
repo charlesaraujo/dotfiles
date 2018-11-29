@@ -295,10 +295,10 @@ let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 
 "" More Settings
-nnoremap <silent> <C-k>f :NERDTreeFind<cr>
-nnoremap <silent> <C-k>b :NERDTreeToggle<cr>
-nnoremap <silent> <c-k>n :bn<cr>
-nnoremap <silent> <c-k>c :bdelete<cr>
+nnoremap <silent> <C-n>f :NERDTreeFind<cr>
+nnoremap <silent> <C-n>n :NERDTreeToggle<cr>
+nnoremap <silent> <c-n>b :bn<cr>
+nnoremap <silent> <c-n>c :bdelete<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
 inoremap jk <ESC>
